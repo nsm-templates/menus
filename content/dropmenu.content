@@ -1,0 +1,2 @@
+<center><h4>Drop Menu</h4></center>
+@input(template/drop_menu.content)

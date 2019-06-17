@@ -1,0 +1,13 @@
+<div class="scroll_menu" id="header">
+	<a href="@pathto(index)" class="header_item">
+		Home
+	</a><a href="@pathto(dropmenu)" class="header_item">
+		Drop Menu
+	</a><a href="@pathto(topmenu)" class="header_item">
+		Top Menu
+	</a><a href="@pathto(topscrollmenu)" class="header_item">
+		Top Scroll Menu
+	</a>
+</div>
+
+
