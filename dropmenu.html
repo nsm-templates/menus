@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>basic site - dropmenu</title>
+        
+        <link rel='stylesheet' type='text/css' href='css/pagestyle.css'>
+        <link rel='stylesheet' type='text/css' href='css/dropmenu.css'>
+        <link rel='stylesheet' type='text/css' href='css/topmenu.css'>
+        <link rel='stylesheet' type='text/css' href='css/topscrollmenu.css'>
+        <link rel='stylesheet' type='text/css' href='css/pre.css'>
+        
+        <!-- uses google-code-prettify for syntax highlighting
+             see https://github.com/google/code-prettify/ for more info -->
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+        
+        <!-- uses MathJax CDC for LaTeX support
+             see http://docs.mathjax.org/en/latest/start.html for more info -->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config
+            ({
+                extensions: ["tex2jax.js"],
+                jax: ["input/TeX", "output/HTML-CSS"],
+                tex2jax:
+                {
+                    inlineMath: [['$','$'], ['\\(','\\)']],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true
+                },
+                "HTML-CSS": { availableFonts: ["MathJax TeX"] }
+            });
+        </script>
+        <script type="text/javascript"
+                src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+        </script>
+    </head>
+
+    <body>
+        <center><h4>Drop Menu</h4></center>
+        <nav>
+            <ul class="drop_menu">
+                <li class="dm_li"><a href="index.html">home</a>
+        			<ul class ="drop_submenu">
+        				<li class="dsm_li"><a href="dropmenu.html">drop menu</a></li>
+        			</ul>
+        		</li>
+                <li class="dm_li"><a href="dropmenu.html">drop menu</a></li>
+        		<li class="dm_li"><a href="topmenu.html">top menu</a></li>
+        		<li class="dm_li"><a href="topscrollmenu.html">top scroll menu</a></li>
+            </ul>
+        </nav>
+
+        <footer>
+            <hr>
+            <p>
+                Page last built on Tuesday June 18 2019 at 05:23:05 (AEST).
+            </p>
+        </footer>
+
+        <script src='js/process_pre_tags.js'></script>
+    </body>
+</html>
