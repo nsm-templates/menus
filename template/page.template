@@ -5,7 +5,7 @@
 
     <body>
 		<div class="content">
-		    @inputcontent
+		    @content()
 
 		    @input(template/footer.content)
 		</div>
